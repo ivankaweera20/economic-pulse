@@ -1,0 +1,20 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Credentials and environment configuration
+.env
+.env.*
+!.env.example
+*api_key*
+*secret*
+
+# Generated files and local editor files
+*.log
+.DS_Store
+.vscode/
+.idea/
